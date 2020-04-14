@@ -11,7 +11,7 @@ package project7;
 
 public interface Heap extends BinaryTree {
   // msy want to throw FullHeapException unless an extensible array used
-  public Position add(Object newKey, Object newElement) throws InvalidObjectException;
+  public void add(Object newKey, Object newElement) throws InvalidObjectException;
 
   public Object removeRoot() throws EmptyHeapException;
 }
