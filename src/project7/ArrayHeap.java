@@ -23,7 +23,7 @@ public class ArrayHeap extends ArrayBinaryTree implements Heap {
     }
 
 
-  public Position add(Object newKey, Object newElement) throws InvalidObjectException {
+  public void add(Object newKey, Object newElement) throws InvalidObjectException {
       // TODO: add code here
       return null;
   }
